@@ -17,6 +17,6 @@ It uses Python and Pandas to handle data manipulation and analysis of the data.
 * washington.csv: Contains bikeshare data for the city of Washington.
 
 ### Credits
-[Pandas Docs](https://pandas.pydata.org/docs/reference/index.html)
-[Stackoverflow Solutions](https://stackoverflow.com/questions/18879782/python-pandas-groupby-forloop-idxmax,
-https://stackoverflow.com/questions/66090975/convert-ages-to-groups-of-age-ranges-getting-valueerror-bin-labels-must-be-one)
+* [Pandas Docs](https://pandas.pydata.org/docs/reference/index.html)
+* [Stackoverflow Solution](https://stackoverflow.com/questions/18879782/python-pandas-groupby-forloop-idxmax)
+* [Stackoverflow Solution](https://stackoverflow.com/questions/66090975/convert-ages-to-groups-of-age-ranges-getting-valueerror-bin-labels-must-be-one)
