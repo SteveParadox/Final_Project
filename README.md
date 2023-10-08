@@ -1,17 +1,22 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
+8th of October 2023
 
 ### Project Title
-Replace the Project Title
+BikeShare Explorer
 
 ### Description
-Describe what your project is about and what it does
+The script provides a user-friendly way to explore and analyze bikeshare data for different cities, allowing users to gain insights into travel patterns, user demographics and more. 
+
+It uses Python and Pandas to handle data manipulation and analysis of the data.
 
 ### Files used
-Include the files used
+* chicago.csv: Contains bikeshare data for the city of Chicago.
+* new_york_city.csv: Contains bikeshare data for the city of New York City.
+* washington.csv: Contains bikeshare data for the city of Washington.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+[Pandas Docs](https://pandas.pydata.org/docs/reference/index.html)
+[Stackoverflow Solutions](https://stackoverflow.com/questions/18879782/python-pandas-groupby-forloop-idxmax,
+https://stackoverflow.com/questions/66090975/convert-ages-to-groups-of-age-ranges-getting-valueerror-bin-labels-must-be-one)
