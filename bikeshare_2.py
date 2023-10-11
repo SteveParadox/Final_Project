@@ -41,6 +41,11 @@ def get_filters():
     return city, month, day
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> origin/Documentation
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
@@ -242,7 +247,11 @@ def subscription_duration_stats(df):
 
 def display_raw_data(df):
     """
+<<<<<<< HEAD
     Displays raw data in bits of 10 rows at a time and prompts the user to continue or stop.
+=======
+    Displays raw data in bits of 5 rows at a time and prompts the user to continue or stop.
+>>>>>>> origin/Documentation
     Args:
         df (pd.DataFrame): Pandas DataFrame containing bikeshare data.
     """
