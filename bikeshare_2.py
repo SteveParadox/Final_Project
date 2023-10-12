@@ -244,7 +244,11 @@ def subscription_duration_stats(df):
 
 def display_raw_data(df):
     """
+<<<<<<< HEAD
     Displays raw data in bits of 5 rows at a time and prompts the user to continue or stop.
+=======
+    Displays raw data in bits of 10 rows at a time and prompts the user to continue or stop.
+>>>>>>> origin/refactoring
     Args:
         df (pd.DataFrame): Pandas DataFrame containing bikeshare data.
     """
@@ -252,7 +256,11 @@ def display_raw_data(df):
     index = 0
     _size = 10
 
+<<<<<<< HEAD
     # To display all columns in full with out the ...
+=======
+    # To display all columns in full with out the ... breaking of the output table
+>>>>>>> origin/refactoring
     pd.set_option('display.max_columns', None)  
     pd.set_option('display.expand_frame_repr', False) # No column break
     pd.set_option('display.max_colwidth', 25)  # column width
@@ -268,7 +276,11 @@ def display_raw_data(df):
         if index >= len(df):
             print("No more raw data to display.")
             break
+<<<<<<< HEAD
 
+=======
+        # To view the lines of raw data available
+>>>>>>> origin/refactoring
         while True:
             user_input = input(f"Do you want to see the next {_size} lines of raw data? Enter 'yes' to continue or 'no' to stop: ")
             print('-' * 170)
@@ -298,4 +310,8 @@ def main():
 
 
 if __name__ == "__main__":
+<<<<<<< HEAD
 	main()
+=======
+	main()
+>>>>>>> origin/refactoring
