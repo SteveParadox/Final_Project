@@ -6,6 +6,7 @@
 ### Project Title
 BikeShare Explorer
 
+
 ### Description
 The script provides a user-friendly way to explore and analyze bikeshare data for different cities, allowing users to gain insights into travel patterns, user demographics and more. 
 
